@@ -71,7 +71,7 @@ A preconfigured Java project is provided, containing:
 You are required to:
 
 1. **Implement GraphQL queries and mutations** as described above.  
-2. **Define the GraphQL schema** (`schema.graphqls`) representing the data model.  
+2. **Define the GraphQL schema** (`schema.graphql`) representing the data model.  
 3. **Configure the GraphQL server**   
 4. **Test operations** using Postman or GraphiQL.  
 5. **Observe and explain** what happens when multiple queries are executed within the same GraphQL request.
@@ -105,7 +105,7 @@ You are required to:
 2. **Create GraphQL resolvers**:  
    - `QueryResolver` for read operations  
    - `MutationResolver` for write operations  
-3. **Define the GraphQL schema** (`schema.graphqls`).  
+3. **Define the GraphQL schema** (`schema.graphql`).  
 4. **Configure the GraphQL server** within Spring Boot.  
 5. **Test** queries and mutations using Postman or GraphiQL.  
 6. **Document** your tests and observations.
